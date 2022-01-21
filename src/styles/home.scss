@@ -1,0 +1,24 @@
+.boat {
+  cursor: pointer;
+  z-index: 10;
+}
+
+.boat-details {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  padding: 10px;
+  width: 300px;
+  z-index: 5000;
+
+  h3 {
+    margin-bottom: 10px;
+  }
+
+  span {
+    margin-top: 5px;
+  }
+}
